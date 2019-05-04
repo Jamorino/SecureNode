@@ -43,7 +43,7 @@
 
 # What is your status page called?
 # Shows up in the browser bar and meta tags
-title: Eggsample Status
+title: SecureNode Status
 
 # Should posts, which have a publish date
 # from the future, be built? Useful for
@@ -105,11 +105,9 @@ params:
   # For help, see the wiki:
   # https://github.com/cstate/cstate/wiki/Customization
   systems:
-    - name: Gateway
-    - name: API
-      description: The guts of the application.
-    - name: Media Proxy
-      description: This is the service responsible for serving images, audio, and video. It is reliant on our CDN.
+    - name: securenodehost.co.uk
+    - name: Node 1
+    - name: Node 2
 
   # What date format to use?
   #
@@ -188,7 +186,7 @@ params:
   # disrupted: "cc4400"
   # down: "e60000"
   # notice: "24478f"
-  brand: "BD2E51"
+  brand: "040220"
   ok: "008000"
   disrupted: "cc4400"
   down: "e60000"
@@ -203,7 +201,7 @@ params:
   #
   # Default: true
   # BOOLEAN; `true`, `false`
-  alwaysKeepBrandColor: true
+  alwaysKeepBrandColor: false
 
   # Google Analytics tracking code
   #
